@@ -52,7 +52,7 @@ const WrappedListComponent = ({
 
   return (
     <ul style={{ textAlign: 'left' }}>
-      {items.map(mapper)}
+      {items && items.map(mapper)}
     </ul>
   )
 };
