@@ -31,7 +31,7 @@ const SingleListItem = memo(WrappedSingleListItem);
 const WrappedListComponent = ({
   items,
 }) => {
-  const [setSelectedIndex, selectedIndex] = useState();
+  const [selectedIndex, setSelectedIndex] = useState();
 
   useEffect(() => {
     setSelectedIndex(null);
